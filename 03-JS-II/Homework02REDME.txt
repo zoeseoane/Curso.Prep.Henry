@@ -1,0 +1,6 @@
+Definiciones de
+* For : Se utiliza para repetir una instrucción una determinada cantidad de veces
+* && : sinonimo de ‘Y’ en js
+*  || : sinonimo de ‘O’
+* ! : Sinonimo de ‘no’ en js
+

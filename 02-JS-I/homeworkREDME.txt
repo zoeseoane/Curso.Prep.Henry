@@ -1,0 +1,7 @@
+* 
+* Variables : palabras que cuando invoques el código puedan variar según lo  requerido en ese momento ,sirve para guardar algo en algun lugar para despues poder recuperarlo
+* Strings : son palabras o hilo de caracteres, que siempre delimitan con comillas (también se  pueden usar números siempre y cuando delimiten con comillas)
+* Funciones (argumentos, return) : agrupa codigo y los guarda, para no escribir muchas veces un codigo que haga lo mismo, sino que invocas el codigo con una palabra y le pones los valores que necesitas en ese momento
+* Declaraciones if :Su traduccion seria ‘si’,lo usarías para que el código interprete si pasa tal cosa, hace tal otra 
+* Valores booleanos (true, false) :  tiene solo dos respuestas posibles true o false , sirve para interpretar datos 
+
