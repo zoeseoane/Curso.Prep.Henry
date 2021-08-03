@@ -1,0 +1,2 @@
+Explicaciones:
+Arrays : significa arreglos y se utiliza como lista de elementos ordenados uno al lado del otro,se invoca con [],y puede recibir todo tipo de datos ,números ,strings , null. Undefined ,Tambien se pueden poner un arreglo de otro arreglo,funciones dentro de los arreglos se pueden poner buleanos dentro de los arreglos.
