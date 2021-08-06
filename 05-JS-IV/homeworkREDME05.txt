@@ -1,0 +1,6 @@
+Explicaciones de :
+Objetos : Es un conjunto de propiedades,propiedades que pueden ir variando,por ejemplo si objeto es auto sus propiedades puede ser el color,capacidad , motor etc
+Propiedades : sigiendo con el ejemplo anterior las propiedades pueden ser variables,dentro de las propiedades que tiene el auto que seria color puede ser variable ya que puede llegar a ser rojo,azaul,negro etc
+Métodos :  son las palabras claves o símbolos que tienen una función preprogramada en JS , que si las pones cambian el resto de la función llevándolas a determinada acción 
+Bucle for…in :In recorre el blucle for,lo recorre todas las propiedades del objeto
+Notación de puntos vs notación de corchetes : ambas se usan para invocar o acceder a propiedades, con corchetes es mas accesible y con punto es mas literal .

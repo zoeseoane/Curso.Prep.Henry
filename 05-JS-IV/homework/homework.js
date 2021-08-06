@@ -6,7 +6,7 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
- var nombre ='nombre' {
+ var nombre ={
   edad: 'edad',
   meow : function (){console.log('meow')}
 }
@@ -18,7 +18,7 @@ function agregarPropiedad(objeto, property) {
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
   var objeto ={
-    obejeto = null
+    obejeto : null
   }
 }
 obejeto[0] 
@@ -28,15 +28,24 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
+  function unMetodo (obj){
+    console.log (obj);
+  }
+  function invocarMetodo (objeto){
+    metodo (objeto);
+  }
+  console.log (invocarMetodo(producto,unMetodo))
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
-  var objetoo misetrioso={
-    numero miesterioso : val1
-    return this.numeromisterioso * 5
+  function numeroMisterioso (){
+    return this.numeroMisterioso * 5
+  }
+  var objetoMisetrioso={
+    numeroMisterioso : numeroMisterioso
   }
 
 }
@@ -54,9 +63,9 @@ function nuevoUsuario(nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   var nuevoUsuario ={
-    nombre : nombre
-    email : email 
-    password: password
+    nombre : nombre,
+    email : email ,
+    password: password,
   }
 
 }
@@ -80,15 +89,11 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  var obejto ={
-    key: 'propiedad'
-
+  if(objeto[propiedad]) {
+      return true;
+    } else {
+        return false;
   }
-  return true{
-
-  }
-  return false
-} 
 
 function verificarPassword(usuario, password) {
   // Comprueba si la "password" enviada coincide con la propiedad "password" del objeto "usuario"
@@ -161,10 +166,18 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
- function agregarMetodoCalculoDescuento=(){
- return 
-  }
+function calcularpreciodescuento (prod ){
+  prod.precio =prod.precio - (prod.precio*prod.calcularPrecioDescuento);
 
+}
+var producto ={
+  precio : precio ,
+  descuento : descuento ,
+}
+
+ console.log (calcularpreciodescuento(producto));
+
+return prod ;
 }
 
 // No modificar nada debajo de esta línea
